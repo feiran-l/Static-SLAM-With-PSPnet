@@ -9,7 +9,7 @@ pair<cv::Mat,vector<int>>  imgPreProcess(cv::Mat img){
     cv::Mat tmp_size;
     vector<cv::Mat> channels;
     int height = int(img.rows), width = int(img.cols), newW, newH;
-    cout<<RESET"Image sizes are "<<width<<","<<height<<endl;
+    cout<<"Image sizes are "<<width<<","<<height<<endl;
 
     if (width > height){
       newW = 473;
