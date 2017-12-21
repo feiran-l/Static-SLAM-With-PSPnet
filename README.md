@@ -1,1 +1,1 @@
-# static-SLAM-based-on-PSPnet
+# static-SLAM-based-on-PSPnet/ICnet
