@@ -30,7 +30,7 @@ Then run `./ICSlam` for the refined result and `./Slam` for the original one.
 
 ## Result
 #### Origin
-![image](https://github.com/SILI1994/static-SLAM-based-on-PSPnet/blob/master/1.png)
+![image](https://github.com/SILI1994/static-SLAM-based-on-PSPnet/master/1.png)
 
 #### Refined
-![image](https://github.com/SILI1994/static-SLAM-based-on-PSPnet/blob/master/2.png)
+![image](https://github.com/SILI1994/static-SLAM-based-on-PSPnet/master/2.png)
