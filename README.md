@@ -1,4 +1,4 @@
-## Static_SLAM_based_on_PSPNet/ICNet
+## Static SLAM based on PSPNet/ICNet
 This is a refined version of [Yilei's work](https://github.com/yilei0620/RGBD-Slam-Semantic-Seg-DeepLab). 
 We seperately test [PSPNet](https://github.com/hszhao/PSPNet) and [ICNet](https://github.com/hszhao/ICNet) to recognize humans from input images and then mask them out.
 For 3D map construction, only the unmasked areas are projected into pointcloud.  
@@ -10,7 +10,8 @@ amplify the mask. Some stubborn pixels may still exist after the dilation, a poi
 The package depends on 
 [Boost](https://www.boost.org/),
 [Opencv3](https://opencv.org/opencv-3-3.html), 
-[PCL1.7](http://mobile.pointclouds.org/http://mobile.pointclouds.org/news/2013/07/23/pcl-1.7/) 
+[PCL1.7](http://mobile.pointclouds.org/http://mobile.pointclouds.org/news/2013/07/23/pcl-1.7/),
+[caffe](http://caffe.berkeleyvision.org/)
 and [G2O](https://github.com/RainerKuemmerle/g2o)
 
 For compiling, please follow the <br>
