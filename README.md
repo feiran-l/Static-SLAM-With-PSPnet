@@ -23,7 +23,8 @@ process. Also please notice that the package only provides CPU version.
 ## Test
 For testing, please `mkdir model` under the generated `bin` folder.
 Then copy the `parameters.txt` into `bin` and the `.caffemodel` and `.prototxt` into `bin/model`.
-Since the model files are too large, you need to download it from the original PSPNet/ICNet repositories. <br>
+The `parameters.txt` is used for adjusting parameters of the SLAM system and they can be kept as the same for different method. Since the model files are too large, you need to download it from the original PSPNet/ICNet repositories. <br>
+
 Then run `./ICSlam` for the refined result and `./Slam` for the original one.
 
 ## Result
