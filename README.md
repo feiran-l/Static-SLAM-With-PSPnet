@@ -1,4 +1,4 @@
-## Static SLAM based on PSPNet/ICNet
+## Dynamic SLAM based on PSPNet/ICNet
 This is a refined version of [Yilei's work](https://github.com/yilei0620/RGBD-Slam-Semantic-Seg-DeepLab). 
 We seperately test [PSPNet](https://github.com/hszhao/PSPNet) and [ICNet](https://github.com/hszhao/ICNet) to recognize humans from input images and then mask them out.
 For 3D map construction, only the unmasked areas are projected into pointcloud.  
