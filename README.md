@@ -22,7 +22,7 @@ For compiling, please follow the <br>
 process. Also please notice that the package only provides CPU version.
 
 ## Test
-For testing, please `mkdir model` under the generated `bin` folder.
+The code has been tested on Ubuntu 16.04. For compling, please `mkdir model` under the generated `bin` folder.
 Then copy the `parameters.txt` into `bin` and the `.caffemodel` and `.prototxt` into `bin/model`.
 The `parameters.txt` is used for adjusting parameters of the SLAM system and they can be kept as the same for different method. Since the model files are too large, you need to download it from the original PSPNet/ICNet repositories. <br>
 
