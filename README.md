@@ -12,7 +12,7 @@ The package depends on
 [Opencv3](https://opencv.org/opencv-3-3.html), 
 [PCL1.7](http://mobile.pointclouds.org/http://mobile.pointclouds.org/news/2013/07/23/pcl-1.7/),
 [caffe](http://caffe.berkeleyvision.org/)
-and [G2O](https://github.com/RainerKuemmerle/g2o)
+and [G2O](https://github.com/RainerKuemmerle/g2o). Please follow the official guidance for installation.
 
 For compiling, please follow the <br>
 `mkdir build` <br>
